@@ -2,8 +2,8 @@ Playwright scraper for iden challenge
 
 Files:
 
-- `scrape_vvvfast.py` - main async script that reuses storage_state.json if present, logs in, navigates the 4-step wizard, and extracts product rows from a scrollable table area and writes `products.json` fastest parsing without recalculation of the previous table elements stays faster even after multiple rows second edition .
-- `scrape_vvvfast.py` - Secondary script , that reuses storage_state.json if present, logs in, navigates the 4-step wizard, and extracts product rows from a scrollable table area and writes `products.json` reliably first edition .
+- `scrape_vvvfast.py` - main async script that reuses storage_state.json if present, logs in, navigates the 4-step wizard, and extracts product rows from a scrollable table area and writes `products.json` fastest parsing without recalculation of the previous table elements stays faster even after multiple rows `second edition` .
+- `scrape_productsreliable.py` - Secondary script , that reuses storage_state.json if present, logs in, navigates the 4-step wizard, and extracts product rows from a scrollable table area and writes `products.json` reliably `first edition` .
 - `.env.example` - example environment variables
 - `requirements.txt` - Python deps
 
