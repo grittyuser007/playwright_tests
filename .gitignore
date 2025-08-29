@@ -1,0 +1,9 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+.env
+storage_state.json
+products.json
+.
